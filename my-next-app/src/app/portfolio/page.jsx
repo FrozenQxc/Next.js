@@ -1,5 +1,7 @@
-const Blog = () => {
-	return <div>Blog</div>
+import styles from './page.module.css'
+
+const Portfolio = () => {
+	return <div className={styles.container}>About</div>
 }
 
-export default Blog
+export default Portfolio

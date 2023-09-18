@@ -1,8 +1,13 @@
+import Image from 'next/image'
+import styles from './footer.module.css'
+
 const Footer = () => {
 	return (
-		<div>
+		<div className={styles.container}>
 			<div>@2023 FrozenQxc.⚡</div>
-			<div></div>
+			<div>
+				<Image src='/1.svg' alt='FrozenDev' width={30} height={30} />
+			</div>
 		</div>
 	)
 }
