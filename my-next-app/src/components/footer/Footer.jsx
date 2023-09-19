@@ -6,7 +6,29 @@ const Footer = () => {
 		<div className={styles.container}>
 			<div>@2023 FrozenQxc.⚡</div>
 			<div>
-				<Image src='/1.svg' alt='FrozenDev' width={30} height={30} />
+				<div className={styles.social}>
+					<Image
+						src='2.svg'
+						alt='Git'
+						width={30}
+						height={30}
+						className={styles.icon}
+					/>
+					<Image
+						src='2.svg'
+						alt='Telegram'
+						width={30}
+						height={30}
+						className={styles.icon}
+					/>
+					<Image
+						src='2.svg'
+						alt='Vk'
+						width={30}
+						height={30}
+						className={styles.icon}
+					/>
+				</div>
 			</div>
 		</div>
 	)

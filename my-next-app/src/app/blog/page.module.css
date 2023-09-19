@@ -1,3 +1,20 @@
 .container {
-	background-color: red;
+	display: flex;
+	align-items: center;
+	gap: 50px;
+	margin-bottom: 50px;
+
+}
+
+.image {
+	object-fit: cover;
+}
+
+.titile {
+	margin-bottom: 10px;
+}
+
+.desc {
+	font-size: 19px;
+	color: #999;
 }

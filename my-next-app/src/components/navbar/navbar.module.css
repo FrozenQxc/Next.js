@@ -1,10 +1,10 @@
 .container {
-    display: flex;
     height: 100px;
+    display: flex;
     justify-content: space-between;
-
     align-items: center;
 }
+
 
 .logo {
     font-weight: bold;
@@ -21,7 +21,8 @@
 .logout {
     padding: 5px;
     border: none;
-    background-color: green;
+    background-color: #53c28b;
     color: white;
     cursor: pointer;
+    border-radius: 3px;
 }
